@@ -34,8 +34,9 @@ public class NightSky {
         starsInLastPrint = 0;
         for (int i = 0; i < this.height; i++){
             printLine();
+            System.out.println();
         }
-        System.out.println();
+        //System.out.println();
     }
 
     public int starsInLastPrint() {
